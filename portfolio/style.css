@@ -1,0 +1,65 @@
+/* Resetting default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up a base font for the document */
+body {
+    color: lavender;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Logo styles */
+.logo {
+    position: relative;
+    font-size: 30px;
+    color: cadetblue;
+    text-decoration: none;
+    font-weight: 600;
+    flex: 1;
+}
+
+/* Navigation bar styles */
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: darkgray;
+}
+
+/* Home section styles */
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('images(1).jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
